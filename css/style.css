@@ -1,0 +1,383 @@
+*{
+margin: 0px;
+padding: 0px;
+
+
+}
+body{
+font-size: 50 px;
+font-family: 'Arapey', cursive;
+color: black;
+overflow: auto;
+background-image:url('images/background_pink.jpg');
+background-size: cover;
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/bg5.jpg');
+background-size: cover;
+background-repeat: x;
+height: 100vh;
+}
+
+.hello{
+background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/skincare.png');
+background-size: cover;
+background-repeat: x;
+height: 100vh;
+}
+.hello1{
+background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/cbg.jpg');
+background-size: cover;
+background-repeat: x;
+height: 100vh;
+}
+.clearfix: after{
+content:".";
+visibility: hidden;
+display: block;
+height: 0px;
+clear: both;
+}
+
+
+.row{
+max-width: 1180px;
+margin: 0;
+}
+
+.logo{
+height: 120px;
+width: scroll;
+float: left;
+margin-top: 0px;
+}
+
+.main-nav{
+float: right;
+margin-top: 60px;
+}
+
+.main-nav li{
+display: inline-block;
+list-style: none;
+margin-left: 40 px;
+padding: 10px;
+
+}
+
+
+
+.main-nav li a{
+color:  black;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 110%;
+font-weight: 100px;
+padding: 5px 0;
+}
+
+.main-nav li a:hover{
+border-bottom: 2px solid black;
+  background-color: #FF69B4;
+  color: black;
+} 
+
+.main-content-header{
+width:1180px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding-left: 30%;
+padding-bottom: 10%;
+}
+
+h1{
+color: black;
+font-size: 340%;
+word-spacing: 5px;
+padding: 0 3px;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-weight: heavier;
+align: center;
+}
+
+.btn{
+display: inline-block;
+padding: 10px 30px;
+font-weight: lighter;
+text-decoration: none;
+text-transform: uppercase;
+border-radius: 200px;
+transition: background-color 0.2s, border 0.2s, color 0.2;
+}
+
+.btn-full{
+background-color: transparent;
+color:	#FF1493;
+margin-right:15px;
+border: 1px solid	#FF1493;
+}
+
+
+.btn-full:hover{
+background-color: #FF69B4;
+}
+
+.btn-nav{
+background-color: transparent;
+color: 	#FF1493;
+border: 1px solid 		#FF1493;
+}
+
+.btn-nav:hover{
+background-color: #FF69B4;
+}
+
+.colorchange{
+animation: colorchangecosmoland 1s infinite;
+}
+
+@keyframes colorchangecosmoland{
+0%{color: 	#FFB6C1;}
+25%{color: #FF1493; }
+50%{color: 	#FF69B4;}
+100%{color: 	#FF00FF;}
+}
+
+.pid{
+width:75%;
+//width:1180px;
+position: absolute;
+top: 75%;
+left: 50%;
+transform: translate(-50%,-50%);
+align-content: center;
+top-margin:50px;
+}
+
+.pics{
+height: 220px;
+width: 260px;
+
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none ;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 200%;
+  width: auto;
+  margin-top: -122px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 30px;
+  padding: 8px 12px;
+ // position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) 
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}*/
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+#myImg1 {
+  border-radius: 15px;
+ border-color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  align: center;
+}
+
+#myImg1:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button 
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}*/
+/*.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}*/
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+
+
+
+.rightcolumn{
+float: right;
+padding-left: 20%;
+width: 50%;
+align: right;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 50%;
+ align: left;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hair{
+width:50%;float:right;
+}
+
+.here:hover{
+  //background-color: 
+	opacity: 0.7;
+}
+
+//style="border: 2px solid black;margin-top: 100px; margin-bottom: 100px;margin-right: 150px;margin-left: 80px;margin-bottom:80 px;background-image:url('/images/pink2.jpg'); padding-top:50 px;padding-left:25 px;padding-right:25px;padding-bottom:50 px"

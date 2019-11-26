@@ -1,0 +1,46 @@
+<table>
+<tr>
+	<td colspan="2">
+	<p> Top 5 Organic Skincare Brands in India
+We all want to look beautiful; not just to attract someone but also as many professions require good looking and attractive faces , which is impossible without religious skincare routine and products that actually work for the skin.There are many  products available in the market but the organic ones have their own advantages. Organic skincare products as the name suggests are natural products that has no chemical effect or side effect on the body. Moreover they are easily available in the marketplace. And mostly all of them can be also purchased online.  <br> 
+
+At present we have a number of Indian companies that are coming up with their own organic  products – safe for both the body and the environment. Moreover these  brands are also helping the rural communities build sustainable living. <br>
+
+Here we list the top 5 organic beauty brands in India: </p>
+	</td>
+</tr>
+<tr>
+	<td>
+	<img id="myImg1" src="images/skintype.jpg" alt="Skin Care"  align="center" style="width:100%;max-width:460px;height:420px;margin-top: 90px; margin-right: 150px;margin-left: 80px;margin-bottom:20 px;">	
+	</td>
+	<td>
+	<p class="one" id="demo" align="center" style="border: 2px solid black;margin-top: 90px; margin-right: 150px;margin-left: 80px;margin-bottom:20 px;background-image:url('images/pink2.jpg');  padding-top: 40px;padding-right: 80px; padding-bottom: 40px;padding-left: 80px;" > 
+
+		1. Forest Essentials <br> <br> 
+
+Forest Essentials is a leading organic beauty brand in India with its foundations in the prehistoric science of ‘Ayurveda’. Today Forest Essentials is an ideal Beauty Brand for many people both - men and women in the country where ancient beauty practices for skin and hairs have been brought to life. It mainly caters to four categories - Body Care, Facial Care, Hair Care and Wellness.</p>
+
+	</td>
+</tr>
+</table>
+
+
+
+<div style="width:50%;float:right;">
+
+	<img id="myImg1" src="images/skintype.jpg" alt="Skin Care"  align="center" style="width:100%;max-width:460px;height:420px;margin-top: 90px; margin-right: 150px;margin-left: 80px;margin-bottom:20 px;">		
+	<hr>
+	</div>
+	
+	<div style="width:50%;float:left;padding-bottom: 10 px;">
+		
+	<p class="one" id="demo" align="center" style="border: 2px solid black;margin-top: 90px; margin-right: 150px;margin-left: 80px;margin-bottom:20 px;background-image:url('images/pink2.jpg');  padding-top: 40px;padding-right: 80px; padding-bottom: 40px;padding-left: 80px;" > 
+
+		1. Forest Essentials <br> <br> 
+
+Forest Essentials is a leading organic beauty brand in India with its foundations in the prehistoric science of ‘Ayurveda’. Today Forest Essentials is an ideal Beauty Brand for many people both - men and women in the country where ancient beauty practices for skin and hairs have been brought to life. It mainly caters to four categories - Body Care, Facial Care, Hair Care and Wellness.</p>
+
+
+ 	<hr>	
+	</div>  
+
